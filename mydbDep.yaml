@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mydb
-          image: thienpvt/dbss2:Always
+          image: thienpvt/dbss2:lastest
             #args:
             #- "--ignore-db-dir"
           #- "lost+found"
@@ -32,7 +32,7 @@ spec:
                 secretKeyRef:
                   name: app-secret
                   key: db-pass
-          imagePullPolicy: Never
+          imagePullPolicy: Always
       nodeSelector:
         zone: ap-southeast-1a
       volumes:
