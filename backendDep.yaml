@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: thienpvt/backend
+          image: thienpvt/backend:latest
           ports:
             - name: backend-port
               containerPort: 8888

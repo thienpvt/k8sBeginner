@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: thienpvt/frontend
+          image: thienpvt/frontend:latest
           ports:
             - name: frontend-port
               containerPort: 80
