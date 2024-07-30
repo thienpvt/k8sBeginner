@@ -32,6 +32,7 @@ spec:
                 secretKeyRef:
                   name: app-secret
                   key: db-pass
+          imagePullPolicy: Never
       nodeSelector:
         zone: ap-southeast-1a
       volumes:
