@@ -20,7 +20,7 @@ spec:
           ports:
             - name: backend-port
               containerPort: 8888
-          imagePullPolicy: Never
+          imagePullPolicy: Always
       initContainers:
         - name: init-mydb
           image: busybox

@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: mydb
-          image: thienpvt/dbss2:latest
+          image: thienpvt/dbss2:Always
             #args:
             #- "--ignore-db-dir"
           #- "lost+found"
