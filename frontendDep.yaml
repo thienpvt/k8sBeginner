@@ -20,4 +20,3 @@ spec:
           ports:
             - name: frontend-port
               containerPort: 80
-          imagePullPolicy: Always
