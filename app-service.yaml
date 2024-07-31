@@ -7,6 +7,9 @@ spec:
     - port: 80
       targetPort: frontend-port
       protocol: TCP
+    - port: 443
+      targetPort: frontend-port
+      protocol: TCP
   selector:
     app: frontend
   type: LoadBalancer
