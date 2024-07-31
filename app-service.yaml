@@ -5,9 +5,11 @@ metadata:
 spec:
   ports:
     - port: 80
+      name: http
       targetPort: frontend-port
       protocol: TCP
     - port: 443
+      name: https
       targetPort: frontend-port
       protocol: TCP
   selector:
